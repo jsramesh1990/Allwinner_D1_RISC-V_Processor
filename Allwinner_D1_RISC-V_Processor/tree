@@ -1,0 +1,40 @@
+allwinner-d1-riscv-bit-manipulation/
+│
+├── README.md
+│
+├── docs/
+│   ├── architecture.md
+│   ├── hardware.md
+│   ├── software_flow.md
+│   └── testing.md
+│
+├── src/
+│   ├── main.c
+│   ├── bit_operations.c
+│   ├── bit_operations.h
+│   ├── register_access.c
+│   └── register_access.h
+│
+├── include/
+│   └── d1_registers.h
+│
+├── Makefile
+│
+├── scripts/
+│   ├── build.sh
+│   ├── run.sh
+│   └── clean.sh
+│
+├── tests/
+│   ├── test_set_bit.c
+│   ├── test_clear_bit.c
+│   ├── test_toggle_bit.c
+│   └── test_check_bit.c
+│
+├── examples/
+│   ├── set_bit_example.c
+│   ├── clear_bit_example.c
+│   ├── toggle_bit_example.c
+│   └── bit_mask_example.c
+│
+└── LICENSE
