@@ -6,6 +6,16 @@ The project is designed to demonstrate how low-level embedded software works wit
 
 ---
 
+## Complete Allwinner D1 System Flow
+
+The following animation illustrates the complete Allwinner D1 RISC-V execution flow, from power-on and boot stages through the Linux kernel, device drivers, C/C++ application, and hardware peripherals.
+
+<p align="center">
+  <img src="images/allwinner_d1_flow_animation.gif"
+       alt="Allwinner D1 RISC-V Complete System Flow"
+       width="900">
+</p>
+
 ## Table of Contents
 
 * [1. Project Overview](#1-project-overview)
